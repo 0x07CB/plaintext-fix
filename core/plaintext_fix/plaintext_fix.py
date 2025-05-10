@@ -31,7 +31,7 @@ class plaintext_fix(object):
         """
 
         stream = chat(
-            model='llama3.2:3b-instruct-q8_0',
+            model='llama3.2:3b-instruct-q6_K',
             messages=[
               {'role': 'system', 'content': f'{self.system_prompt}'},
               {'role': 'user', 'content': f'{plaintext}'}
